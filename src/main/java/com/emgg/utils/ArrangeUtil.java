@@ -5,6 +5,11 @@ package com.emgg.utils;
  */
 public class ArrangeUtil {
 
+    /**
+     * Arranges items horizontally for being shown
+     * @param data
+     * @return
+     */
     public static String[] arrangeHorizontally(String[][] data) {
 
         String[] result = data[0].clone();
@@ -15,6 +20,13 @@ public class ArrangeUtil {
         return result;
     }
 
+    /**
+     * Manually joins different Strings in an array with
+     * a predefined delimiter
+     * @param strings
+     * @param delim
+     * @return
+     */
     public static String join(String[] strings, char delim) {
         StringBuffer sb = new StringBuffer();
         for (String string : strings) {
@@ -25,6 +37,12 @@ public class ArrangeUtil {
         return sb.toString();
     }
 
+    /**
+     * Generates a String padding space based on
+     * the size
+     * @param size
+     * @return
+     */
     public static String getSpace(int size){
         StringBuilder str = new StringBuilder();
         for(int i = 0; i < size*8; i++){

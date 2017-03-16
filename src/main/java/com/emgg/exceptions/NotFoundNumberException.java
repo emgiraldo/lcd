@@ -1,4 +1,4 @@
-package com.emgg;
+package com.emgg.exceptions;
 
 /**
  * Created by erik.giraldo on 14/03/17.

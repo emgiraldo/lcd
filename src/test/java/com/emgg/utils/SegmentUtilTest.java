@@ -1,6 +1,6 @@
 package com.emgg.utils;
 
-import com.emgg.NotFoundNumberException;
+import com.emgg.exceptions.NotFoundNumberException;
 import com.emgg.constants.LcdRepresentation;
 import org.junit.Assert;
 import org.junit.Test;
